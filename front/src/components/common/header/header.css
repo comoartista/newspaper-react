@@ -1,0 +1,25 @@
+.head {
+  cursor: pointer;
+}
+
+.head .logo img {
+  width: 162px;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+header li {
+  color: #000;
+  transition: .5s;
+}
+
+
+header li:hover {
+  cursor: pointer;
+  color: #5c5c5c;
+}
